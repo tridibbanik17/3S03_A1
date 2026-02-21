@@ -1,3 +1,5 @@
+package ca.mcmaster.sfwreng3s03;
+
 /**
  * Course code: SFWRENG 3S03
  * Assignment 1: Validation and Testing Basics

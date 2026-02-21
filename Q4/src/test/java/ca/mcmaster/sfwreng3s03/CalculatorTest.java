@@ -1,3 +1,9 @@
+package ca.mcmaster.sfwreng3s03;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.Test;
+
 /**
  * Course code: SFWRENG 3S03
  * Assignment 1: Validation and Testing Basics
@@ -10,9 +16,6 @@
  * (TDD) principles in multiple iterations.
  * ------------------------------------------------------------
  */
-
- import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
 
 public class CalculatorTest {
 
@@ -44,9 +47,12 @@ public class CalculatorTest {
     @Test
     void divideByZeroThrowsException() {
         Calculator calc = new Calculator();
-        assertThrows(ArithmeticException.class, () -> {
+        
+        ArithmeticException exception = assertThrows(ArithmeticException.class, () -> {
             calc.divide(5, 0);
         });
+
+        assertEquals("Cannot divide by zero", exception.getMessage());
     }
 
     /**
@@ -71,4 +77,3 @@ public class CalculatorTest {
 
 
 }
-
