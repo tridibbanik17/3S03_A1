@@ -6,7 +6,7 @@ The table below outlines the division of tasks, point distribution, review respo
 
 ---
 
-## 📌 Task Breakdown
+## Task Breakdown
 
 | Assignee        | Primary Task (Write) | Points (Write + Read) | Secondary Task (Review) | Required Resources |
 |-----------------|----------------------|------------------------|--------------------------|--------------------|
@@ -18,3 +18,21 @@ The table below outlines the division of tasks, point distribution, review respo
 **Total:** 100 + 100 points
 
 ---
+## Example of Running Java Code for Q2, Q3, Q4, and Q5:
+
+Q2, Q3, Q4, and Q5 each represents a distinct **Maven** project. So, all of them can be compiled and run tests the similar way as the following:
+
+### **To compile any file in Q5:**
+
+```bash
+cd Q5
+mvn compile
+```
+
+### **To run all tests corresponding to Q5:**
+
+```bash
+mvn test
+```
+
+
