@@ -15,7 +15,8 @@ The table below outlines the division of tasks, point distribution, review respo
 | **Dhruv**       | All of Q5            | 30 + 20 = **50**       | Review all of Q1 & Q3    | For Q5: https://github.com/ssm-lab/3S03/tree/main/assignment1 |
 | **Tridib**      | All of Q2            | 32 + 18 = **50**       | Review all of Q4         | — |
 
-**Total:** 100 + 100 points
+**Total:** 100 (write) + 100 (read) points
+The assignment is out of 100 (write) points. But each team member contributed to the assignment with equal amount of points by adding new content (write) to the their corresponding section(s) and reviewing (read) at least one peer's full work.
 
 ---
 ## Example of Running Java Code for Q2, Q3, Q4, and Q5:
