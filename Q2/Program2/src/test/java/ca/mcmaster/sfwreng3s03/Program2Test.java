@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 class Program2Test {
 
-    // (b) Does NOT execute the fault (only one zero)
+    // (b) Does NOT execute the fault (no elements in the array)
     @Test
-    void singleZero() {
-        int[] x = {1, 0, 2};
-        assertEquals(1, A1_Q2_Program2_Incorrect.lastZero(x));
+    void emptyArray() {
+        int[] x = {};
+        assertEquals(-1, A1_Q2_Program2_Incorrect.lastZero(x));
     }
 
     // (c) Executes the fault but no error state (no zero present)
